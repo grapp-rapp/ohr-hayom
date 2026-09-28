@@ -26,7 +26,7 @@ function render() {
 
   if (!items.length) {
     count.textContent = '';
-    list.innerHTML = '<div class="empty">No teachings yet. <a href="/">Open today&#39;s Dvar Torah</a> to begin your archive.</div>';
+    list.innerHTML = '<div class="empty">No teachings yet. <a href="/today">Open today&#39;s Dvar Torah</a> to begin your archive.</div>';
     return;
   }
 

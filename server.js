@@ -12,6 +12,8 @@ if (!hasCredentials()) {
 
 const app = express();
 app.use(express.json());
+// On Vercel the site root always reaches this app (not the CDN), so send it to the page.
+app.get('/', (_req, res) => res.redirect(302, '/today'));
 // Local runs serve public/ from here; on Vercel the CDN serves public/ and this is ignored.
 app.use(express.static('public', { extensions: ['html'] }));
 
