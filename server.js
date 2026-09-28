@@ -42,6 +42,7 @@ const RESERVED_FOR_DAILY = Math.min(5, Math.floor(DAILY_LIMIT / 3));
 const inFlight = new Map();
 const dailyPick = new Map(); // "date|parsha" -> teaching served when nothing was generated that day
 let pending = 0;
+let lastGenerationError = null; // shown on /api/status to diagnose deployments
 
 const pickRandom = (list) => list[Math.floor(Math.random() * list.length)];
 const dayNumber = (date) => Math.floor(Date.parse(`${date}T00:00:00Z`) / 86_400_000);
@@ -88,6 +89,7 @@ app.post('/api/dvar-torah', async (req, res) => {
       return res.json(await inFlight.get(flightKey));
     } catch (err) {
       console.error(err instanceof GenerationError ? `Gemini: ${err.message}` : err);
+      lastGenerationError = { at: new Date().toISOString(), message: String(err.message).slice(0, 300) };
       // Fall through to a saved or built-in teaching.
     }
   }
@@ -104,6 +106,17 @@ app.post('/api/dvar-torah', async (req, res) => {
   const pick = pool[dayNumber(date) % pool.length];
   dailyPick.set(`${date}|${key}`, pick);
   res.json(pick);
+});
+
+// Health check for the deployment — never includes the key itself.
+app.get('/api/status', (_req, res) => {
+  res.json({
+    geminiKeyConfigured: hasCredentials(),
+    libraryTeachings: libraryAll().length,
+    generatedLast24h: countGeneratedLast24h(),
+    dailyLimit: DAILY_LIMIT,
+    lastGenerationError,
+  });
 });
 
 // Generated teachings (newest first), then the built-in library in parsha order.
