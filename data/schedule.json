@@ -1,0 +1,930 @@
+[
+ {
+  "date": "2025-09-27",
+  "parsha": [
+   "Vayeilech"
+  ]
+ },
+ {
+  "date": "2025-10-04",
+  "parsha": [
+   "Ha'azinu"
+  ]
+ },
+ {
+  "date": "2025-10-11",
+  "holiday": "Sukkot Shabbat Chol ha-Moed"
+ },
+ {
+  "date": "2025-10-18",
+  "parsha": [
+   "Bereshit"
+  ]
+ },
+ {
+  "date": "2025-10-25",
+  "parsha": [
+   "Noach"
+  ]
+ },
+ {
+  "date": "2025-11-01",
+  "parsha": [
+   "Lech-Lecha"
+  ]
+ },
+ {
+  "date": "2025-11-08",
+  "parsha": [
+   "Vayera"
+  ]
+ },
+ {
+  "date": "2025-11-15",
+  "parsha": [
+   "Chayei Sara"
+  ]
+ },
+ {
+  "date": "2025-11-22",
+  "parsha": [
+   "Toldot"
+  ]
+ },
+ {
+  "date": "2025-11-29",
+  "parsha": [
+   "Vayetzei"
+  ]
+ },
+ {
+  "date": "2025-12-06",
+  "parsha": [
+   "Vayishlach"
+  ]
+ },
+ {
+  "date": "2025-12-13",
+  "parsha": [
+   "Vayeshev"
+  ]
+ },
+ {
+  "date": "2025-12-20",
+  "parsha": [
+   "Miketz"
+  ]
+ },
+ {
+  "date": "2025-12-27",
+  "parsha": [
+   "Vayigash"
+  ]
+ },
+ {
+  "date": "2026-01-03",
+  "parsha": [
+   "Vayechi"
+  ]
+ },
+ {
+  "date": "2026-01-10",
+  "parsha": [
+   "Shemot"
+  ]
+ },
+ {
+  "date": "2026-01-17",
+  "parsha": [
+   "Vaera"
+  ]
+ },
+ {
+  "date": "2026-01-24",
+  "parsha": [
+   "Bo"
+  ]
+ },
+ {
+  "date": "2026-01-31",
+  "parsha": [
+   "Beshalach"
+  ]
+ },
+ {
+  "date": "2026-02-07",
+  "parsha": [
+   "Yitro"
+  ]
+ },
+ {
+  "date": "2026-02-14",
+  "parsha": [
+   "Mishpatim"
+  ]
+ },
+ {
+  "date": "2026-02-21",
+  "parsha": [
+   "Terumah"
+  ]
+ },
+ {
+  "date": "2026-02-28",
+  "parsha": [
+   "Tetzaveh"
+  ]
+ },
+ {
+  "date": "2026-03-07",
+  "parsha": [
+   "Ki Tisa"
+  ]
+ },
+ {
+  "date": "2026-03-14",
+  "parsha": [
+   "Vayakhel",
+   "Pekudei"
+  ]
+ },
+ {
+  "date": "2026-03-21",
+  "parsha": [
+   "Vayikra"
+  ]
+ },
+ {
+  "date": "2026-03-28",
+  "parsha": [
+   "Tzav"
+  ]
+ },
+ {
+  "date": "2026-04-04",
+  "holiday": "Pesach Shabbat Chol ha-Moed"
+ },
+ {
+  "date": "2026-04-11",
+  "parsha": [
+   "Shmini"
+  ]
+ },
+ {
+  "date": "2026-04-18",
+  "parsha": [
+   "Tazria",
+   "Metzora"
+  ]
+ },
+ {
+  "date": "2026-04-25",
+  "parsha": [
+   "Achrei Mot",
+   "Kedoshim"
+  ]
+ },
+ {
+  "date": "2026-05-02",
+  "parsha": [
+   "Emor"
+  ]
+ },
+ {
+  "date": "2026-05-09",
+  "parsha": [
+   "Behar",
+   "Bechukotai"
+  ]
+ },
+ {
+  "date": "2026-05-16",
+  "parsha": [
+   "Bamidbar"
+  ]
+ },
+ {
+  "date": "2026-05-23",
+  "holiday": "Shavuot"
+ },
+ {
+  "date": "2026-05-30",
+  "parsha": [
+   "Nasso"
+  ]
+ },
+ {
+  "date": "2026-06-06",
+  "parsha": [
+   "Beha'alotcha"
+  ]
+ },
+ {
+  "date": "2026-06-13",
+  "parsha": [
+   "Sh'lach"
+  ]
+ },
+ {
+  "date": "2026-06-20",
+  "parsha": [
+   "Korach"
+  ]
+ },
+ {
+  "date": "2026-06-27",
+  "parsha": [
+   "Chukat",
+   "Balak"
+  ]
+ },
+ {
+  "date": "2026-07-04",
+  "parsha": [
+   "Pinchas"
+  ]
+ },
+ {
+  "date": "2026-07-11",
+  "parsha": [
+   "Matot",
+   "Masei"
+  ]
+ },
+ {
+  "date": "2026-07-18",
+  "parsha": [
+   "Devarim"
+  ]
+ },
+ {
+  "date": "2026-07-25",
+  "parsha": [
+   "Vaetchanan"
+  ]
+ },
+ {
+  "date": "2026-08-01",
+  "parsha": [
+   "Eikev"
+  ]
+ },
+ {
+  "date": "2026-08-08",
+  "parsha": [
+   "Re'eh"
+  ]
+ },
+ {
+  "date": "2026-08-15",
+  "parsha": [
+   "Shoftim"
+  ]
+ },
+ {
+  "date": "2026-08-22",
+  "parsha": [
+   "Ki Teitzei"
+  ]
+ },
+ {
+  "date": "2026-08-29",
+  "parsha": [
+   "Ki Tavo"
+  ]
+ },
+ {
+  "date": "2026-09-05",
+  "parsha": [
+   "Nitzavim",
+   "Vayeilech"
+  ]
+ },
+ {
+  "date": "2026-09-12",
+  "holiday": "Rosh Hashana"
+ },
+ {
+  "date": "2026-09-19",
+  "parsha": [
+   "Ha'azinu"
+  ]
+ },
+ {
+  "date": "2026-09-26",
+  "holiday": "Sukkot"
+ },
+ {
+  "date": "2026-10-03",
+  "holiday": "Shmini Atzeret"
+ },
+ {
+  "date": "2026-10-10",
+  "parsha": [
+   "Bereshit"
+  ]
+ },
+ {
+  "date": "2026-10-17",
+  "parsha": [
+   "Noach"
+  ]
+ },
+ {
+  "date": "2026-10-24",
+  "parsha": [
+   "Lech-Lecha"
+  ]
+ },
+ {
+  "date": "2026-10-31",
+  "parsha": [
+   "Vayera"
+  ]
+ },
+ {
+  "date": "2026-11-07",
+  "parsha": [
+   "Chayei Sara"
+  ]
+ },
+ {
+  "date": "2026-11-14",
+  "parsha": [
+   "Toldot"
+  ]
+ },
+ {
+  "date": "2026-11-21",
+  "parsha": [
+   "Vayetzei"
+  ]
+ },
+ {
+  "date": "2026-11-28",
+  "parsha": [
+   "Vayishlach"
+  ]
+ },
+ {
+  "date": "2026-12-05",
+  "parsha": [
+   "Vayeshev"
+  ]
+ },
+ {
+  "date": "2026-12-12",
+  "parsha": [
+   "Miketz"
+  ]
+ },
+ {
+  "date": "2026-12-19",
+  "parsha": [
+   "Vayigash"
+  ]
+ },
+ {
+  "date": "2026-12-26",
+  "parsha": [
+   "Vayechi"
+  ]
+ },
+ {
+  "date": "2027-01-02",
+  "parsha": [
+   "Shemot"
+  ]
+ },
+ {
+  "date": "2027-01-09",
+  "parsha": [
+   "Vaera"
+  ]
+ },
+ {
+  "date": "2027-01-16",
+  "parsha": [
+   "Bo"
+  ]
+ },
+ {
+  "date": "2027-01-23",
+  "parsha": [
+   "Beshalach"
+  ]
+ },
+ {
+  "date": "2027-01-30",
+  "parsha": [
+   "Yitro"
+  ]
+ },
+ {
+  "date": "2027-02-06",
+  "parsha": [
+   "Mishpatim"
+  ]
+ },
+ {
+  "date": "2027-02-13",
+  "parsha": [
+   "Terumah"
+  ]
+ },
+ {
+  "date": "2027-02-20",
+  "parsha": [
+   "Tetzaveh"
+  ]
+ },
+ {
+  "date": "2027-02-27",
+  "parsha": [
+   "Ki Tisa"
+  ]
+ },
+ {
+  "date": "2027-03-06",
+  "parsha": [
+   "Vayakhel"
+  ]
+ },
+ {
+  "date": "2027-03-13",
+  "parsha": [
+   "Pekudei"
+  ]
+ },
+ {
+  "date": "2027-03-20",
+  "parsha": [
+   "Vayikra"
+  ]
+ },
+ {
+  "date": "2027-03-27",
+  "parsha": [
+   "Tzav"
+  ]
+ },
+ {
+  "date": "2027-04-03",
+  "parsha": [
+   "Shmini"
+  ]
+ },
+ {
+  "date": "2027-04-10",
+  "parsha": [
+   "Tazria"
+  ]
+ },
+ {
+  "date": "2027-04-17",
+  "parsha": [
+   "Metzora"
+  ]
+ },
+ {
+  "date": "2027-04-24",
+  "holiday": "Pesach Shabbat Chol ha-Moed"
+ },
+ {
+  "date": "2027-05-01",
+  "parsha": [
+   "Achrei Mot"
+  ]
+ },
+ {
+  "date": "2027-05-08",
+  "parsha": [
+   "Kedoshim"
+  ]
+ },
+ {
+  "date": "2027-05-15",
+  "parsha": [
+   "Emor"
+  ]
+ },
+ {
+  "date": "2027-05-22",
+  "parsha": [
+   "Behar"
+  ]
+ },
+ {
+  "date": "2027-05-29",
+  "parsha": [
+   "Bechukotai"
+  ]
+ },
+ {
+  "date": "2027-06-05",
+  "parsha": [
+   "Bamidbar"
+  ]
+ },
+ {
+  "date": "2027-06-12",
+  "holiday": "Shavuot"
+ },
+ {
+  "date": "2027-06-19",
+  "parsha": [
+   "Nasso"
+  ]
+ },
+ {
+  "date": "2027-06-26",
+  "parsha": [
+   "Beha'alotcha"
+  ]
+ },
+ {
+  "date": "2027-07-03",
+  "parsha": [
+   "Sh'lach"
+  ]
+ },
+ {
+  "date": "2027-07-10",
+  "parsha": [
+   "Korach"
+  ]
+ },
+ {
+  "date": "2027-07-17",
+  "parsha": [
+   "Chukat",
+   "Balak"
+  ]
+ },
+ {
+  "date": "2027-07-24",
+  "parsha": [
+   "Pinchas"
+  ]
+ },
+ {
+  "date": "2027-07-31",
+  "parsha": [
+   "Matot",
+   "Masei"
+  ]
+ },
+ {
+  "date": "2027-08-07",
+  "parsha": [
+   "Devarim"
+  ]
+ },
+ {
+  "date": "2027-08-14",
+  "parsha": [
+   "Vaetchanan"
+  ]
+ },
+ {
+  "date": "2027-08-21",
+  "parsha": [
+   "Eikev"
+  ]
+ },
+ {
+  "date": "2027-08-28",
+  "parsha": [
+   "Re'eh"
+  ]
+ },
+ {
+  "date": "2027-09-04",
+  "parsha": [
+   "Shoftim"
+  ]
+ },
+ {
+  "date": "2027-09-11",
+  "parsha": [
+   "Ki Teitzei"
+  ]
+ },
+ {
+  "date": "2027-09-18",
+  "parsha": [
+   "Ki Tavo"
+  ]
+ },
+ {
+  "date": "2027-09-25",
+  "parsha": [
+   "Nitzavim",
+   "Vayeilech"
+  ]
+ },
+ {
+  "date": "2027-10-02",
+  "holiday": "Rosh Hashana"
+ },
+ {
+  "date": "2027-10-09",
+  "parsha": [
+   "Ha'azinu"
+  ]
+ },
+ {
+  "date": "2027-10-16",
+  "holiday": "Sukkot"
+ },
+ {
+  "date": "2027-10-23",
+  "holiday": "Shmini Atzeret"
+ },
+ {
+  "date": "2027-10-30",
+  "parsha": [
+   "Bereshit"
+  ]
+ },
+ {
+  "date": "2027-11-06",
+  "parsha": [
+   "Noach"
+  ]
+ },
+ {
+  "date": "2027-11-13",
+  "parsha": [
+   "Lech-Lecha"
+  ]
+ },
+ {
+  "date": "2027-11-20",
+  "parsha": [
+   "Vayera"
+  ]
+ },
+ {
+  "date": "2027-11-27",
+  "parsha": [
+   "Chayei Sara"
+  ]
+ },
+ {
+  "date": "2027-12-04",
+  "parsha": [
+   "Toldot"
+  ]
+ },
+ {
+  "date": "2027-12-11",
+  "parsha": [
+   "Vayetzei"
+  ]
+ },
+ {
+  "date": "2027-12-18",
+  "parsha": [
+   "Vayishlach"
+  ]
+ },
+ {
+  "date": "2027-12-25",
+  "parsha": [
+   "Vayeshev"
+  ]
+ },
+ {
+  "date": "2028-01-01",
+  "parsha": [
+   "Miketz"
+  ]
+ },
+ {
+  "date": "2028-01-08",
+  "parsha": [
+   "Vayigash"
+  ]
+ },
+ {
+  "date": "2028-01-15",
+  "parsha": [
+   "Vayechi"
+  ]
+ },
+ {
+  "date": "2028-01-22",
+  "parsha": [
+   "Shemot"
+  ]
+ },
+ {
+  "date": "2028-01-29",
+  "parsha": [
+   "Vaera"
+  ]
+ },
+ {
+  "date": "2028-02-05",
+  "parsha": [
+   "Bo"
+  ]
+ },
+ {
+  "date": "2028-02-12",
+  "parsha": [
+   "Beshalach"
+  ]
+ },
+ {
+  "date": "2028-02-19",
+  "parsha": [
+   "Yitro"
+  ]
+ },
+ {
+  "date": "2028-02-26",
+  "parsha": [
+   "Mishpatim"
+  ]
+ },
+ {
+  "date": "2028-03-04",
+  "parsha": [
+   "Terumah"
+  ]
+ },
+ {
+  "date": "2028-03-11",
+  "parsha": [
+   "Tetzaveh"
+  ]
+ },
+ {
+  "date": "2028-03-18",
+  "parsha": [
+   "Ki Tisa"
+  ]
+ },
+ {
+  "date": "2028-03-25",
+  "parsha": [
+   "Vayakhel",
+   "Pekudei"
+  ]
+ },
+ {
+  "date": "2028-04-01",
+  "parsha": [
+   "Vayikra"
+  ]
+ },
+ {
+  "date": "2028-04-08",
+  "parsha": [
+   "Tzav"
+  ]
+ },
+ {
+  "date": "2028-04-15",
+  "holiday": "Pesach Shabbat Chol ha-Moed"
+ },
+ {
+  "date": "2028-04-22",
+  "parsha": [
+   "Shmini"
+  ]
+ },
+ {
+  "date": "2028-04-29",
+  "parsha": [
+   "Tazria",
+   "Metzora"
+  ]
+ },
+ {
+  "date": "2028-05-06",
+  "parsha": [
+   "Achrei Mot",
+   "Kedoshim"
+  ]
+ },
+ {
+  "date": "2028-05-13",
+  "parsha": [
+   "Emor"
+  ]
+ },
+ {
+  "date": "2028-05-20",
+  "parsha": [
+   "Behar",
+   "Bechukotai"
+  ]
+ },
+ {
+  "date": "2028-05-27",
+  "parsha": [
+   "Bamidbar"
+  ]
+ },
+ {
+  "date": "2028-06-03",
+  "parsha": [
+   "Nasso"
+  ]
+ },
+ {
+  "date": "2028-06-10",
+  "parsha": [
+   "Beha'alotcha"
+  ]
+ },
+ {
+  "date": "2028-06-17",
+  "parsha": [
+   "Sh'lach"
+  ]
+ },
+ {
+  "date": "2028-06-24",
+  "parsha": [
+   "Korach"
+  ]
+ },
+ {
+  "date": "2028-07-01",
+  "parsha": [
+   "Chukat"
+  ]
+ },
+ {
+  "date": "2028-07-08",
+  "parsha": [
+   "Balak"
+  ]
+ },
+ {
+  "date": "2028-07-15",
+  "parsha": [
+   "Pinchas"
+  ]
+ },
+ {
+  "date": "2028-07-22",
+  "parsha": [
+   "Matot",
+   "Masei"
+  ]
+ },
+ {
+  "date": "2028-07-29",
+  "parsha": [
+   "Devarim"
+  ]
+ },
+ {
+  "date": "2028-08-05",
+  "parsha": [
+   "Vaetchanan"
+  ]
+ },
+ {
+  "date": "2028-08-12",
+  "parsha": [
+   "Eikev"
+  ]
+ },
+ {
+  "date": "2028-08-19",
+  "parsha": [
+   "Re'eh"
+  ]
+ },
+ {
+  "date": "2028-08-26",
+  "parsha": [
+   "Shoftim"
+  ]
+ },
+ {
+  "date": "2028-09-02",
+  "parsha": [
+   "Ki Teitzei"
+  ]
+ },
+ {
+  "date": "2028-09-09",
+  "parsha": [
+   "Ki Tavo"
+  ]
+ },
+ {
+  "date": "2028-09-16",
+  "parsha": [
+   "Nitzavim",
+   "Vayeilech"
+  ]
+ }
+]

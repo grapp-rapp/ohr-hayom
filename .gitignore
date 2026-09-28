@@ -1,0 +1,13 @@
+# Dependencies (reinstalled with `npm install`)
+node_modules/
+
+# Secrets — never commit your API key (covers .env, .env.txt, .env.local, …)
+.env*
+!.env.example
+
+# The live database (generated teachings); each server keeps its own
+data/*.db
+data/*.db-*
+
+# Local editor / tool settings
+.claude/
