@@ -1,14 +1,10 @@
-import { existsSync } from 'node:fs';
-
-// Load .env before anything constructs the Gemini client.
-if (existsSync(new URL('.env', import.meta.url))) process.loadEnvFile(new URL('.env', import.meta.url));
-
-const { default: express } = await import('express');
-const { PARSHIYOT, describeReading } = await import('./lib/parshiyot.js');
-const { parshaForDate, SCHEDULE_RANGE } = await import('./lib/schedule.js');
-const { generateDvarTorah, GenerationError, hasCredentials } = await import('./lib/generate.js');
-const { saveDvarTorah, findForDay, listAll, listForParsha, countGeneratedLast24h } = await import('./lib/db.js');
-const { libraryFor, libraryAll } = await import('./lib/library.js');
+import './lib/env.js'; // must stay first: loads .env before the modules below read settings
+import express from 'express';
+import { PARSHIYOT, describeReading } from './lib/parshiyot.js';
+import { parshaForDate, SCHEDULE_RANGE } from './lib/schedule.js';
+import { generateDvarTorah, GenerationError, hasCredentials } from './lib/generate.js';
+import { saveDvarTorah, findForDay, listAll, listForParsha, countGeneratedLast24h } from './lib/db.js';
+import { libraryFor, libraryAll } from './lib/library.js';
 
 if (!hasCredentials()) {
   console.warn('ℹ No GEMINI_API_KEY set — serving the built-in library only. Add a key to .env to write new teachings.');
@@ -16,6 +12,7 @@ if (!hasCredentials()) {
 
 const app = express();
 app.use(express.json());
+// Local runs serve public/ from here; on Vercel the CDN serves public/ and this is ignored.
 app.use(express.static('public', { extensions: ['html'] }));
 
 const isDate = (s) => typeof s === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(s);
@@ -112,5 +109,16 @@ app.get('/api/archive', (_req, res) => {
   res.json([...listAll(), ...libraryAll()]);
 });
 
-const port = Number(process.env.PORT) || 3000;
-app.listen(port, () => console.log(`Ohr HaYom running at http://localhost:${port}`));
+// Last-resort handler: answer with JSON instead of Express's HTML error page.
+app.use((err, _req, res, _next) => {
+  console.error(err);
+  res.status(500).json({ error: 'Something went wrong. Please try again.' });
+});
+
+// Vercel imports the app and runs it as a function; locally we listen on a port.
+export default app;
+
+if (!process.env.VERCEL) {
+  const port = Number(process.env.PORT) || 3000;
+  app.listen(port, () => console.log(`Ohr HaYom running at http://localhost:${port}`));
+}

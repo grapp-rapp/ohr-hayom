@@ -18,5 +18,8 @@
   },
   "devDependencies": {
     "@hebcal/core": "^6.9.3"
+  },
+  "engines": {
+    "node": "24.x"
   }
 }
